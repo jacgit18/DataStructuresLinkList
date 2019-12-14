@@ -1,6 +1,6 @@
 package comred;
 
-public class CustomArray {
+public class CustomArray1 {
 
 	private int size = 0;
 	private String[] items = new String[3];
