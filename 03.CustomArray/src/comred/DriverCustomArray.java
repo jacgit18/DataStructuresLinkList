@@ -1,5 +1,7 @@
 package comred;
 
+import java.util.LinkedList;
+
 import comred.CustomArray1;
 import edu.citytech.cst.datastructure.CheckCustomArray;
 import edu.citytech.cst.datastructure.ICustomArray;
@@ -40,6 +42,22 @@ public class DriverCustomArray {
 					
 					System.out.println(string);
 				}
+				
+				 // Creating an empty test LinkedList 
+			      LinkedList<String> list = new LinkedList<String>(); 
+			  
+			      // Using add() method to add elements in the list 
+			      list.add("Geeks"); 
+			      list.add("for"); 
+			      list.add("Geeks"); 
+			      list.add("10"); 
+			      list.add("20"); 
+			  
+			      // Displaying the list 
+			      System.out.println("LinkedList:" + list); 
+			        
+			      // Fetching last element from the list 
+			      System.out.println("The last element is: " + list.getLast()); 
 	}
 
 	public static void MyExample() {
