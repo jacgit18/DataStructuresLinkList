@@ -4,8 +4,6 @@ import java.util.Arrays;
 
 import edu.citytech.cst.datastructure.ICustomArray;
 
-
-	
 	/**
 	 * Currently an Array does now allow changes in its size, unless a new array is
 	 * created. Elements in an array cannot be deleted or inserted from an array.The
